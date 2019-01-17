@@ -5,17 +5,16 @@
 body{background: #2C3E50;
     background: -webkit-linear-gradient(to left, #4CA1AF, #2C3E50);
     background: linear-gradient(to left, #4CA1AF, #2C3E50);
-    
 }
 .form
      {
         width: 340px;
-        height: 620px;
+        height: 580px;
         background: #e6e6e6;
         border-radius: 8px;
         box-shadow: 0 0 40px -10px #000;
         margin: auto;
-        margin-top: 10%;
+        margin-top: 0%;
         padding: 20px 30px;
         max-width: calc(100vw - 40px);
         box-sizing: border-box;
@@ -24,13 +23,12 @@ body{background: #2C3E50;
           }
         h2
         {
-          margin:10px 0;
+          margin:0px 0;
           padding-bottom:10px;
           width:180px;
           color:#78788c;
           border-bottom:3px solid #78788c
           }
-
           h4
         {
           margin:10px 0;
@@ -39,7 +37,6 @@ body{background: #2C3E50;
           color:#444;
           border-bottom:3px solid #78788c
           }
-
         input
         {
         width:100%;
@@ -54,9 +51,9 @@ body{background: #2C3E50;
         }
         input:focus{border-bottom:2px solid #78788c}
         p:before{content:attr(type);
-        display:block;margin:28px 0 0;
+        display:block;margin:2px 0 0;
         font-size:14px;color:#5a5a5a}
-        button{float:right;padding:8px 12px;margin:8px 0 0;
+        button{float:right;padding:8px 12px;margin:0px 0 0;
         font-family:'Montserrat',sans-serif;
         border:2px solid #78788c;
         background:0;
@@ -91,4 +88,3 @@ body{background: #2C3E50;
 </form>
 </body>
 </html>
-
